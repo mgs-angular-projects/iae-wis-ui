@@ -1,0 +1,126 @@
+.container {
+	width: 940px;
+}
+
+.span12 {
+	width: 940px;
+}
+
+body {
+	width: auto;
+	height: 100%;
+	font-size: 14px;
+	line-height: 20px;
+	color: #313337;
+	background-color: #e1e2e5;
+	font-family: "verdana", Arial, "Helvetica Neue", Helvetica, sans-serif;
+	min-height: 100%;
+}
+
+#mainBody {
+	width: auto;
+	min-height: 100%;
+	font-size: 14px;
+	line-height: 20px;
+	color: #313337;
+	background-color: #e1e2e5;
+	background-size: cover;
+	font-family: "verdana", Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.formControl {
+	align: center;
+	font-family: "verdana", Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.formSelect {
+	height: 30px;
+	width: 80px;
+	border-radius: 5px;
+}
+
+.center-align {
+	text-align: center;
+}
+
+.gridCell {
+	font-family: "verdana", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 12px;
+}
+
+.gridHeader {
+	font-family: "verdana", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	text-align: center;
+	/* background-color: #3f4145 !important;
+	color: #ffffff; */
+}
+
+.gridData {
+	height: 530px;
+}
+
+.tabsdemoDynamicHeight md-content {
+	background-color: transparent !important;
+}
+
+.tabsdemoDynamicHeight md-content md-tabs {
+	background: #f6f6f6;
+	border: 1px solid #e1e1e1;
+}
+
+.tabsdemoDynamicHeight md-content md-tabs md-tabs-wrapper {
+	background: white;
+}
+
+.tabsdemoDynamicHeight md-content h1:first-child {
+	margin-top: 0;
+}
+
+.carddemoBasicUsage .card-media {
+	background-color: #999999;
+}
+
+$
+gray: #eee ;
+
+md-content.md-default-theme {
+	background-color: $gray;
+}
+
+md-card {
+	background-color: #fff;
+	h2: first-of-type{
+    margin-top: 0;
+}
+
+}
+md-toolbar { .md-button .md-default-theme { border-radius:99%; // round
+	toolbar buttons
+	
+}
+
+}
+h2 {
+	font-weight: 400;
+}
+
+.md-toolbar-tools-bottom {
+	font-size: small;
+	&
+	:
+	last-child
+	{
+	opacity
+	:
+	0.8;
+}
+
+}
+md-toolbar:not (.md-hue-1 ), .md-fab {
+	fill: #fff;
+}
+
+md-toolbar.md-default-theme:not(.md-menu-toolbar), md-toolbar:not(.md-menu-toolbar) {
+	background-color: green;
+}
