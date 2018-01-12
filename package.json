@@ -1,0 +1,23 @@
+{
+  "name": "iae-wis-dashboard",
+  "version": "0.0.1",
+  "dependencies": {
+    "cors": "2.8.4",
+    "express": "4.16.2",
+    "http-proxy": "1.16.2"
+  },
+  "description": "iae-wis-dashboard",
+  "main": "iae-wis-dashboard.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified! Configure in package.json\" && exit 1"
+  },
+  "repository": "",
+  "keywords": [
+    "node.js",
+    "eclipse",
+    "nodeclipse"
+  ],
+  "author": "",
+  "license": "MIT",
+  "readmeFilename": "README.md"
+}
